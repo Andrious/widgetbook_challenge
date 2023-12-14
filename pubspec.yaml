@@ -1,0 +1,52 @@
+name: widgetbook_challenge
+description: "Widgetbook Challenge App"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+
+dependencies:
+  cupertino_icons: ^1.0.2
+
+  flutter:
+    sdk: flutter
+
+  flutter_riverpod: ^2.0.0-dev.6
+
+  # https://pub.dev/packages/fluttery_framework
+  fluttery_framework: ^4.0.0
+#    path: ../../packages/fluttery_framework
+
+  # https://pub.dev/packages/google_fonts
+  google_fonts: ^6.0.0
+
+  # https://pub.dev/packages/validators
+  validators: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # https://pub.dev/packages/mocktail
+  mocktail: ^1.0.0
+  # https://pub.dev/packages/very_good_analysis
+  very_good_analysis: ^5.0.0 #^2.4.0
+
+flutter:
+  uses-material-design: true
+  
+#  assets:
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Bold.ttf
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-Medium.ttf
+        - asset: assets/fonts/Quicksand-SemiBold.ttf
+        - asset: assets/fonts/Quicksand-Light.ttf
